@@ -4,7 +4,7 @@ FROM alvisisme/docker-ubuntu-non-root-with-utils
 ENTRYPOINT []
 CMD ["/bin/bash"]
 
-ENV ANDROID_NDK_VERSION r13b
+ENV ANDROID_NDK_VERSION r14b
 ENV ANDROID_NDK_HOME /usr/local/android-ndk-${ANDROID_NDK_VERSION}
 ENV PATH ${ANDROID_NDK_HOME}:$PATH
 

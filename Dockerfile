@@ -1,6 +1,6 @@
-# https://github.com/alvisisme/docker-ubuntu-non-root-with-utils/blob/master/Dockerfile
+# https://github.com/alvisisme/docker-android-ndk/blob/r14b/Dockerfile
 FROM alvisisme/docker-ubuntu-non-root-with-utils
-
+LABEL maintainer="Alvis Zhao<alvisisme@gmail.com>"
 ENTRYPOINT []
 CMD ["/bin/bash"]
 

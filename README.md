@@ -6,6 +6,7 @@ android ndk编译镜像
 * 本地构建
 
   ```shell
+  cd r14b
   docker build -t alvisisme/docker-android-ndk:r14b .
   ```
 

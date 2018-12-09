@@ -1,0 +1,12 @@
+version: '2'
+services:
+  docker-android-ndk-r13b:
+    build:
+      context: ./r13b
+      dockerfile: ./Dockerfile
+    image: alvisisme/docker-android-ndk:r13b
+  docker-android-ndk-r14b:
+    build:
+      context: ./r14b
+      dockerfile: ./Dockerfile
+    image: alvisisme/docker-android-ndk:r14b
